@@ -1,2 +1,7 @@
-<h1>Rooms#show</h1>
-<p>Find me in app/views/rooms/show.html.erb</p>
+<h1>Chat Room</h1>
+<input type="text" id="chat-input" />
+<button id="button">送信</button>
+<div id="messages">
+	<%= render :partial => @messages %>
+　　 <!--  _message.html.erbを呼び出しcontentを表示させる　-->
+</div>
